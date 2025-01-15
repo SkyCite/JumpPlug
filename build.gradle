@@ -19,7 +19,6 @@ repositories {
     maven{
         url = "https://repo.fancyplugins.de/releases"
     }
-    maven { url 'https://jitpack.io' }
 }
 
 dependencies {
@@ -27,11 +26,6 @@ dependencies {
     compileOnly("de.oliver:FancyHolograms:2.4.1")
     compileOnly 'org.projectlombok:lombok:1.18.36'
     annotationProcessor 'org.projectlombok:lombok:1.18.36'
-    implementation 'fr.mrmicky:FastInv:3.1.1'
-}
-
-shadowJar {
-    relocate 'fr.mrmicky.fastinv', 'fr.tetemh.jumpPlug.fastinv'
 }
 
 def targetJavaVersion = 21
