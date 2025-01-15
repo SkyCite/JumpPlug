@@ -1,0 +1,6 @@
+name: JumpPlug
+version: '0.1'
+main: fr.tetemh.jumpPlug.JumpPlug
+api-version: '1.21'
+authors: [ teomullerheddar@gmail.com ]
+description: Ce plugin permet de créer des jump simple
